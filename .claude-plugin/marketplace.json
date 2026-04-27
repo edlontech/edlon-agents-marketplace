@@ -1,0 +1,24 @@
+{
+  "name": "edlon-agents-marketplace",
+  "owner": {
+    "name": "Edlon Tech",
+    "email": "ycastor@edlon.tech",
+    "url": "https://github.com/edlontech"
+  },
+  "metadata": {
+    "description": "AI Toolings for your day-to-day suffering",
+    "homepage": "https://github.com/edlontech/edlon-agents-marketplace"
+  },
+  "plugins": [
+    {
+      "name": "gingko-memory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/edlontech/gingko-mem.git",
+        "path": "plugins/claude_code",
+        "ref": "gingko-v0.1.0"
+      },
+      "description": "Persistent graph-based memory for Claude Code via the Gingko MCP server"
+    }
+  ]
+}

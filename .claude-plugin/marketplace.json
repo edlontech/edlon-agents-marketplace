@@ -16,7 +16,7 @@
         "source": "git-subdir",
         "url": "https://github.com/edlontech/gingko-mem.git",
         "path": "plugins/claude_code",
-        "ref": "gingko-v0.1.2"
+        "ref": "gingko-v0.3.0"
       },
       "description": "Persistent graph-based memory for Claude Code via the Gingko MCP server"
     }
